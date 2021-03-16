@@ -9,6 +9,7 @@ When launching your EC2 instance using the AMI you will need to allow 22000 and 
 sshd: Port 22000, Permitrootlogin no. 
 additional config MaxAuthTries(To counter brute force logins).  
 Sudo user: liaqat
+sudo -l -U liaqat
 User liaqat may run the following commands on :
     (ALL : ALL) ALL
 
