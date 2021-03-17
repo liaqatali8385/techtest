@@ -1,0 +1,7 @@
+/var/log/freespace{
+    su root root
+    hourly
+    rotate 10
+    compress
+    create 
+}
